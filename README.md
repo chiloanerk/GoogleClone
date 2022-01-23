@@ -1,4 +1,6 @@
 # GoogleClone
+Site is hosted here https://chiloanerk.github.io/GoogleClone/
+
 Hi there, Here I created a Google clone by just looking at it, i did not use any tutorials or anything. O
 nly references on how to manipulate elements from W3Schools.
 Feel Free to check out my code and try to improve on it, this took me around 2 hours if i dont count interruptions to work on.
