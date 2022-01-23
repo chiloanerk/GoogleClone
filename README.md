@@ -1,6 +1,7 @@
 # GoogleClone
-Hi there, Here I created a Google clone by just looking at it, i did not use any tutorials or anything. Only references on how to manipulate elements from W3Schools.
-Feel Free to check out my code and try to improve on it
+Hi there, Here I created a Google clone by just looking at it, i did not use any tutorials or anything. O
+nly references on how to manipulate elements from W3Schools.
+Feel Free to check out my code and try to improve on it, this took me around 2 hours if i dont count interruptions to work on.
 #1 known issues, I can't get the hover background border to be round on the top nav icons.
 
 
