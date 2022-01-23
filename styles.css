@@ -5,5 +5,130 @@ Reset Values
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    font-weight: 100;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.nav {
+    margin: 10px;
+    margin-top: 20px;
+}
+/* Aligning links to the right*/
+.nav ul {
+    text-align: right;
+    width: 100%;
+    height: 20px;
+}
+/* making text horizontal*/
+.nav li {
+    display: inline;
+}
+/* remove styling from links*/
+.nav ul a {
+    color: black;
+    padding: 0 10px;
+    text-decoration: none;
+}
+/*adding padding to the icons as they could not be styles as text*/
+.icons {
+    padding: 0 10px;
+}
+/*underline hover effect on text*/
+.nav ul a:hover {
+    text-decoration: underline;
+}
+/* making background grey with a circular shadow when hovering the icons*/
+/*could not get border to be round*/
+.icons:hover {
+    border: transparent;
+    border-radius: 30px;
+    background-color: rgb(245, 244, 244);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.search-container {
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    display: block;
+}
+
+.search {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+input {
+    height: 40px;
+    border-radius: 18px;
+    border: solid thin #dfe0e0;
+    flex: 100%;
+    padding-left: 20px;
+}
+
+.search-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.search-buttons button{
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 7px;
+    border-style: hidden;
+}
+
+.languages {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.languages a {
+    margin-left: 5px;
+    color: #1a0dab;
+}
+
+.country {
+    display: block;
+    padding: 15px 30px;
+    margin-top: 120px;
+    color: #70757a;
+    background-color: #dadce0;
+}
+
+footer {
+    padding: 15px 30px;
+    border-top: solid thin #999;
+    background-color: #dadce0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer ul {
+    list-style: none;
+}
+footer ul li {
+    display: inline;
+    padding-left: 15px 30px;
+    margin-right: 10px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #70757a;
+}
+p a {
+    text-decoration: none;
+    color: #70757a;
+}
+footer a:hover {
+    text-decoration: underline;
 }
